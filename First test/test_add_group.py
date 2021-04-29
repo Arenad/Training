@@ -13,6 +13,7 @@ class TestAddGroup(unittest.TestCase):
         self.wd = webdriver.Firefox()
         self.wd.implicitly_wait(30)
 
+
     def test_add_group(self):
         wd = self.wd
         wd.get("http://localhost/addressbook/index.php")
@@ -46,8 +47,6 @@ class TestAddGroup(unittest.TestCase):
 
     def tearDown(self):
         self.wd.quit()
-
-
 
 if __name__ == "__main__":
     unittest.main()

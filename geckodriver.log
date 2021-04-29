@@ -1,0 +1,28 @@
+1619695921113	geckodriver	INFO	Listening on 127.0.0.1:59131
+1619695922027	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewEE08w"
+1619695924156	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619695928700	Marionette	INFO	Listening on port 38317
+1619695929087	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+1619695937978	Marionette	INFO	Stopped listening on port 38317
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619696105255	geckodriver	INFO	Listening on 127.0.0.1:53013
+1619696105260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerxMzKQ"
+1619696107096	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619696109956	Marionette	INFO	Listening on port 41327
+1619696110014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619696140301	Marionette	INFO	Stopped listening on port 41327
+1619696169933	geckodriver	INFO	Listening on 127.0.0.1:38301
+1619696169938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileagdwqh"
+1619696171847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619696175257	Marionette	INFO	Listening on port 46637
+1619696175369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1619696191899	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1619696193264	Marionette	INFO	Stopped listening on port 46637
